@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+  background: black;
+}
+
+ul[class]{
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  font-size: 1.3em;
+}
+
+.active{
+  background: white;
+  color: black;
+  padding: 0 .5em;
+}
+.error {
+  color: red;
+  font-size: 1.3rem;
+}
+
+a{
+  color: inherit;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  min-height: 100vh;
+  color: white;
+}
+
+input {
+  padding: 0.5em;
+  font-size: 1.2em;
+  border: none;
+  background: none;
+  color: white;
+  border-bottom: 1px solid white;
+  width: 60vw;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  align-items: flex-start;
+}
+button {
+  cursor: pointer;
+  background: white;
+  color: black;
+  border: none;
+  font-size: 1.1em;
+  padding: 0.5em 3em;
+}
+button:hover {
+  opacity: 0.7;
+}
+
+.user-details{
+  align-items: flex-start;
+  gap: 1.5em;
+}
+.user-details > *{
+  margin: 0;
+}
+
+img{
+  width: 200px;
+}
+p{
+  font-size: 1.2em;
+}
